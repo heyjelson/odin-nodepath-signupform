@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign up Form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="left_container">
+            <div class="logo"><h1><img src="odin-viking.png" alt="logo">Odin Project</h1></div>
+        </div>
+        <div class="right_container">
+            <h3>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started. <span>You know <em>you</em> want to get started.</span></h3>
+            <form id="form" class="form">
+                <h3 class="h_form">Let's do this!</h3>
+                    <div class="input_label">
+                        <label for="first_name" class="first_name">FIRST NAME</label>
+                        <label for="last_name" class="last_name">LAST NAME</label>
+                        <input type="text" id="first_name" name="first_name" class="input_fname" required>
+                        <input type="text" id="last_name" name="last_name" class="input_lname" required>
+                        <label for="email" class="email">EMAIL</label>
+                        <label for="phone_number" class="phone_number">PHONE NUMBER</label>
+                        <input type="email" id="email" name="email" class="input_email" required>
+                        <input type="text" id="phone_number" name="phone_number" class="input_pnumber" required>
+                        <label for="password" class="password">PASSWORD</label>
+                        <label for="confirm_password" class="confirm_password">CONFIRM PASSWORD</label>
+                        <input type="password" id="password" name="password" class="input_password" required>
+                        <input type="password" id="confirm_password" name="confirm_password" class="input_cpassword" required>
+                    </div>
+                <span class="error_message">Error Message</span>
+                <button type="submit">Create Account</button>
+            </form>
+            <p>Already have an account? <a href="#">Log in</a></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</body>
+</html>
